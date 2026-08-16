@@ -3,14 +3,6 @@ Here is the clean, professional `README.md` code formatted exactly to your reque
 ```markdown
 # 📊 HR Analytics & Attendance Dashboard
 
-> An interactive **Power BI HR Analytics Dashboard** designed to analyze employee attendance, work-from-home patterns, presence trends, and sick-leave behavior using real-world attendance data.
-
-![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Measures-0078D4?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-ETL-217346?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-Data%20Source-217346?style=for-the-badge)
-
----
 
 ## 📌 Project Overview
 
