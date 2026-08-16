@@ -940,7 +940,7 @@ Employee
 
 The dashboard is structured to provide a clear overview of employee attendance, WFH behavior, sick leave, and employee-level metrics.
 
-![HR Attendance Dashboard](Image/dashboard.png)
+![HR Attendance Dashboard](Image/Dashboard.png)
 
 ---
 
