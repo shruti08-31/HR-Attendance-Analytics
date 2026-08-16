@@ -12,33 +12,6 @@ The project converts raw monthly attendance data stored across multiple Excel sh
 
 ---
 
-## 📌 Table of Contents
-
-* [Project Overview](#-project-overview)
-* [Business Problem](#-business-problem)
-* [Project Objectives](#-project-objectives)
-* [Business Questions](#-business-questions)
-* [Dataset](#-dataset)
-* [Attendance Codes](#-attendance-codes)
-* [Technology Stack](#-technology-stack)
-* [Project Workflow](#-project-workflow)
-* [Step 1 – Understand the Business Requirements](#step-1--understand-the-business-requirements)
-* [Step 2 – Import the Excel Data](#step-2--import-the-excel-data)
-* [Step 3 – Transform the Data using Power Query](#step-3--transform-the-data-using-power-query)
-* [Step 4 – Create a Reusable Power Query Function](#step-4--create-a-reusable-power-query-function)
-* [Step 5 – Create the Final Attendance Table](#step-5--create-the-final-attendance-table)
-* [Step 6 – Create DAX Calculations](#step-6--create-dax-calculations)
-* [Step 7 – Build the Dashboard](#step-7--build-the-dashboard)
-* [Step 8 – Validate the Dashboard](#step-8--validate-the-dashboard)
-* [Dashboard Insights](#-dashboard-insights)
-* [Suggested Repository Structure](#-suggested-repository-structure)
-* [How to Reproduce the Project](#-how-to-reproduce-the-project)
-* [Important Power BI Concepts Learned](#-important-power-bi-concepts-learned)
-* [Future Improvements](#-future-improvements)
-* [Key Takeaways](#-key-takeaways)
-
----
-
 # 📊 Project Overview
 
 This project focuses on analyzing employee attendance data using Power BI.
