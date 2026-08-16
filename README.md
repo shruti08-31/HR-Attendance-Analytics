@@ -936,40 +936,17 @@ Employee
 ```
 
 ---
+## 🧩 Dashboard Layout
 
-# 🧩 Dashboard Layout
+The dashboard is structured to provide a clear overview of employee attendance, WFH behavior, sick leave, and employee-level metrics.
 
-A practical layout is:
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│              HR ATTENDANCE ANALYTICS                       │
-├───────────────┬───────────────┬─────────────────────────────┤
-│ Presence %    │ WFH %         │ Sick Leave %               │
-├───────────────┴───────────────┴─────────────────────────────┤
-│                                                             │
-│              Attendance / Presence Trend                   │
-│                                                             │
-├──────────────────────────────┬──────────────────────────────┤
-│                              │                              │
-│ WFH Trend                    │ Sick Leave Trend             │
-│                              │                              │
-├──────────────────────────────┴──────────────────────────────┤
-│                                                             │
-│                 WFH by Day of Week                         │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│ Employee Name | Presence % | WFH % | Sick Leave %          │
-│ Employee A    | ...        | ...   | ...                   │
-│ Employee B    | ...        | ...   | ...                   │
-└─────────────────────────────────────────────────────────────┘
-```
+![HR Attendance Dashboard](Image/dashboard.png)
 
 ---
 
-# 🔎 Data Validation in the Dashboard
+## 🔎 Data Validation in the Dashboard
 
-After creating visuals, validate them against the raw Excel data.
+After creating the visuals, the dashboard calculations were validated against the raw Excel data.
 
 For example:
 
@@ -978,30 +955,6 @@ Excel
 Employee A
 10 June
 P
-```
-
-should correspond to:
-
-```text
-Power BI
-Employee A
-10 June
-P
-```
-
-Also verify that:
-
-```text
-WFH percentage
-Presence percentage
-Sick Leave percentage
-```
-
-produce sensible values.
-
-Do not assume a visually attractive dashboard means the calculations are correct.
-
----
 
 # 💡 Dashboard Insights
 
