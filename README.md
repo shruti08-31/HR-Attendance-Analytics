@@ -946,83 +946,15 @@ The dashboard is structured to provide a clear overview of employee attendance, 
 
 ## 🔎 Data Validation in the Dashboard
 
-After creating the visuals, the dashboard calculations were validated against the raw Excel data.
+The dashboard calculations were validated against the underlying attendance data to ensure that the reported KPIs and employee-level values were consistent with the source records.
 
-For example:
+For example, an individual attendance record can be cross-checked between the source Excel data and the Power BI model:
 
 ```text
 Excel
 Employee A
 10 June
 P
-
-# 💡 Dashboard Insights
-
-The dashboard can help identify:
-
-### 1. Attendance Trends
-
-Management can see whether presence is increasing or decreasing over time.
-
-### 2. WFH Trends
-
-A rising WFH percentage may indicate changing employee working preferences.
-
-The example analysis observes a higher WFH percentage in June compared with April.
-
-### 3. Weekday Preferences
-
-If WFH is consistently higher on certain weekdays, management can use that information for:
-
-* Team lunches
-* Team-building activities
-* Office capacity planning
-* Hybrid-work policies
-* Infrastructure maintenance scheduling
-
-### 4. Sick Leave Patterns
-
-A sudden increase in sick leave on particular dates may justify further investigation.
-
-However, **the dashboard alone cannot establish the cause of sick leave**. It identifies patterns that may require HR investigation.
-
-### 5. Capacity Planning
-
-Attendance and WFH patterns can help estimate office utilization and support decisions about workspace requirements.
-
-The stakeholder discussion specifically connects attendance patterns with office capacity and infrastructure-cost planning.
-
----
-
-# 📂 Suggested Repository Structure
-
-Use a structure such as:
-
-```text
-HR-Analytics-PowerBI/
-│
-├── README.md
-│
-├── data/
-│   ├── Attendance.xlsx
-│   └── README.md
-│
-├── powerbi/
-│   └── HR_Analytics_Dashboard.pbix
-│
-├── screenshots/
-│   ├── dashboard.png
-│   ├── attendance-trend.png
-│   ├── wfh-analysis.png
-│   └── employee-analysis.png
-│
-└── docs/
-    ├── project-requirements.md
-    └── dax-measures.md
-```
-
-If the actual repository has different filenames, replace these with your real filenames rather than copying this structure blindly.
-
 ---
 
 # 🚀 How to Reproduce the Project
